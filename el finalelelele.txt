@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>STEM & Innovation Advocacy</title>
+
+<style>
+/* ===== RESET ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #2e7d32, #f9a825);
+    color: #ffffff;
+}
+
+/* ===== HERO / MAIN SCROLL ===== */
+header {
+    min-height: 100vh;
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(135deg, #1b5e20, #f57f17);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+header h6 {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+header .sub {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+/* ===== MAIN BUTTON MENU ===== */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 18px 26px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.menu a:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* ===== CONTENT CONTAINER ===== */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+/* ===== SECTION CARDS ===== */
+.section {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 35px;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #fffde7;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #fff9c4;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+/* ===== CHECK LIST ===== */
+.list p::before {
+    content: "🌱 ";
+}
+
+/* ===== BACK BUTTON ===== */
+.back {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #2e7d32;
+    background: rgba(255,255,255,0.85);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background: #ffffff;
+}
+
+/* ===== FLOATING INFO ===== */
+.floating-box {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #66bb6a, #ffa726);
+    color: #1b5e20;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+</style>
+</head>
+
+<body id="top">
+
+<!-- ===== MAIN SCROLL / HOME ===== -->
+<header id="home">
+    <h1>ADVANCED ACCELERATED SOCIETAL DEVELOPMENT<br>THROUGH STEM AND INNOVATION</h1>
+    <h6>An Advocacy by Marc Lauren T. Papa</h6>
+    <div class="sub">Civil Engineering</div>
+
+    <div class="menu">
+        <a href="#why">Why Support</a>
+        <a href="#history">History</a>
+        <a href="#matters">Why It Matters</a>
+        <a href="#problems">Problems</a>
+        <a href="#solutions">Solutions</a>
+    </div>
+</header>
+
+<!-- ===== CONTENT ===== -->
+<div class="container">
+
+    <div id="why" class="section list">
+        <h2>Why Support the Cause?</h2>
+        <p>Opening more opportunities for Filipino innovators, scientists, and engineers</p>
+        <p>Investing in local SciTech projects and entrepreneurship</p>
+        <p>Accessible quality education with interdisciplinary frameworks</p>
+        <p>STEM as a pillar for national development and resilience</p>
+        <a href="#home" class="back">⬅ Back to Main</a>
+    </div>
+
+    <div id="history" class="section">
+        <h2>History</h2>
+
+        <h3>Science Act of 1958 (RA 2067)</h3>
+        <p>Integrated and intensified scientific research and invention.</p>
+
+        <h3>Philippine Innovation Act (RA 11293)</h3>
+        <p>Established innovation centers and platforms.</p>
+
+        <h3>Investors and Invention Incentives Act (RA 7459)</h3>
+        <p>Promoted invention and technology commercialization.</p>
+
+        <h3>Magna Carta for S&T Personnel (RA 11312)</h3>
+        <p>Granted benefits to scientists and engineers in government.</p>
+
+        <a href="#home" class="back">⬅ Back to Main</a>
+    </div>
+
+    <div id="matters" class="section list">
+        <h2>Why It Matters?</h2>
+        <p>Education</p>
+        <p>Environment</p>
+        <p>Healthcare</p>
+        <p>Governance</p>
+        <p>National competitiveness</p>
+        <a href="#home" class="back">⬅ Back to Main</a>
+    </div>
+
+    <div id="problems" class="section list">
+        <h2>Problems</h2>
+        <p>Struggling commercialization</p>
+        <p>Stunted development growth</p>
+        <p>Poor educational utilities</p>
+        <p>Limited innovation culture</p>
+        <a href="#home" class="back">⬅ Back to Main</a>
+    </div>
+
+    <div id="solutions" class="section list">
+        <h2>Solutions</h2>
+        <p>Local fairs and trade expos</p>
+        <p>Research and development grants</p>
+        <p>Academic investment</p>
+        <p>Faculty enrichment and modern course frameworks</p>
+        <a href="#home" class="back">⬅ Back to Main</a>
+    </div>
+
+</div>
+
+<!-- ===== FLOATING BOX ===== -->
+<div class="floating-box">
+    <h3>🌍 Key Focus</h3>
+    <p>
+        Strengthening education and innovation for sustainable national growth.
+    </p>
+</div>
+
+</body>
+</html>
